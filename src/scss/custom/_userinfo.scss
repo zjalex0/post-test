@@ -1,0 +1,20 @@
+.userinfo-image{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-right: 0.5rem;
+    object-fit: cover;
+}
+.userinfo{
+    text-align: center;
+}
+
+.userinfo-fieldset{
+    border-radius: 5px;
+    padding: 1rem;
+    border: 1px dotted gray;
+}
+
+.userinfo-span{
+    color: #999999;
+}

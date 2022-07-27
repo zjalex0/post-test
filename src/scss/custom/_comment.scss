@@ -1,0 +1,20 @@
+.comment-author--no-cover {
+    margin: 0.3rem auto;
+    padding-top: .125rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.comment-published-date{
+    margin-left: 1rem;
+    color: lighten(#333, 40%);
+}
+
+.comment-author-image {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: .5rem;
+    position: relative;
+}

@@ -1,0 +1,51 @@
+/* modal.module.css */
+
+.modal__wrap {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: rgba(31, 32, 41, .75);
+  pointer-events: none;
+  opacity: 0;
+}
+
+.visible {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal {
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+  display: block;
+  width: auto;
+  max-height: 90%;
+  min-height: 20%;
+  height: auto;
+  padding: 2rem;
+  min-width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  align-self: center;
+  z-index: 110;
+  box-shadow: 0 12px 25px 0 rgba(199, 175, 189, .25);
+  opacity: 0;
+}
+
+.visible .modal {
+  opacity: 1;
+}
